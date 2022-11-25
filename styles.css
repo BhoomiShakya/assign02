@@ -1,0 +1,183 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x:hidden;
+}
+h3{
+    margin:2px;
+    margin-top: 1.5rem;
+}
+span{
+    display: flex;
+    color: white;
+}
+#img-icon{
+    margin:12px;
+    margin-left: 20px;
+    
+}
+
+#list{
+    list-style: none;
+    margin: 12px;
+    display: flex;
+    justify-content:center;
+ }
+
+ header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    background-color: black;
+    width:100%;
+    height:65px;   
+}
+li{
+	margin:10px;
+	padding:3px
+}
+.links{
+    color:white;
+    text-decoration: none;
+    
+}
+.links:hover{
+    color:green;
+    transition: 0.5s;
+    text-decoration: dotted;
+}
+
+main{
+    background-image: url("bg.jpeg");
+    background-position:center;
+	background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+#mobile{
+    height: 480px;
+    width: 550px;
+    margin-left: 5rem;
+    margin-top: 7rem;
+}
+
+#text{
+    color:white;    
+    font-size:3rem;
+    margin-top: 4rem;
+    text-shadow: 4px 4px 4px black;
+}
+
+#subs{
+    color: black;
+    font-size: 1.5rem;
+    background-color:white;
+    text-shadow: 1px 1px 1px;
+    border-radius: 20px 20px 20px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    margin-top: -2rem;
+}
+
+#subs:hover{
+    background-color: rgb(217, 217, 217);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ section h2{
+    width: 100%;
+    background-color: white;
+    font-size: 3.5rem;
+    text-align: center; 
+    color: plum;
+    text-shadow: 2px 2px 2px black;
+}
+.card{ 
+    margin:25px;
+    padding:5px;
+}
+.skill{
+    background-color: plum;
+    border-radius: 100px 100px 100px;
+}
+.card:hover{
+    cursor:pointer;
+    transition: box-shadow 0.3s;
+}
+
+.arrange_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:0.5rem;
+    font-size: 3rem;   
+}
+#bar{
+    background-color: plum;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    /* margin: 5rem; */
+    padding: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+#next li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+#four{
+    background-color: plum;
+    height: 10rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.para{
+    text-align: center;
+}
+#in{
+    text-align: center;
+    margin: 3rem;
+}
+#buttn{
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 2rem;
+}
+footer{
+    margin: -6px;
+    background-color: black;
+}
+#ends{
+    display: flex;
+    gap:16rem;
+}
+#ending{
+    list-style:none;
+    display: flex;
+    margin-left: 9.5rem;
+    margin: 5rem;;
+}
+#happy{
+    display: flex;
+}
+.ends{
+    height: 25px;
+    width: 25px;
+
+}
+#iconss{
+    display:flex;
+}
+.end ul{
+    text-decoration: none;
+}
+.end ul li{
+    color:antiquewhite;
+    text-decoration: none;
+    list-style: none;
+}
